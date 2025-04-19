@@ -24,9 +24,10 @@ mysql_conn = mysql.connector.connect(
     host="localhost",
     user="root",
     password="Vvhm@1234",
-    database="UserDB"
+    database="changedetection"
 )
 mysql_cursor = mysql_conn.cursor()
+
 
 # File upload setup
 UPLOAD_FOLDER = os.path.join("static", "inputs")
